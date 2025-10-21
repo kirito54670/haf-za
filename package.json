@@ -1,0 +1,13 @@
+{
+  "name": "hafiza-api",
+  "version": "1.0.0",
+  "description": "Kişisel hafıza API",
+  "main": "hafiza-api.js",
+  "scripts": {
+    "start": "node hafiza-api.js",
+    "build": "echo 'Build işlemi yok'"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
