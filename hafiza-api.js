@@ -1,7 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
@@ -25,6 +25,10 @@ app.get('/oku', (req, res) => {
     res.json(data);
 });
 
+app.get('/', (req, res) => {
+    res.send('🧠 Hafıza API çalışıyor!');
+});
+
 app.listen(PORT, () => {
-    console.log(`Hafıza API çalışıyor: http://localhost:${PORT}`);
+    console.log(`Hafıza API aktif: http://localhost:${PORT}`);
 });
