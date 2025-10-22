@@ -1,11 +1,10 @@
 {
   "name": "hafiza-api",
   "version": "1.0.0",
-  "description": "Kişisel hafıza API",
-  "main": "hafiza-api.js",
+  "description": "Basit AI Hafıza API (BDFD uyumlu)",
+  "main": "index.js",
   "scripts": {
-    "start": "node hafiza-api.js",
-    "build": "echo 'Build işlemi yok'"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.19.2"
