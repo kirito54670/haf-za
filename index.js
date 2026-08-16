@@ -35,7 +35,7 @@ function saveMemory(memory) {
   try {
     fs.writeFileSync(memoryFile, JSON.stringify(memory, null, 2));
   } catch (err) {
-    throw new Error("Hafıza kaydedilemedi.");
+    throw new Error("Hafıza kaydedilemedii.");
   }
 }
 
