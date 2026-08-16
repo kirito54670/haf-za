@@ -68,7 +68,7 @@ app.get("/api/memory", (req, res) => {
     const memory = loadMemory();
     res.json({ memory });
   } catch (err) {
-    res.status(500).json({ error: "Dosya erişim hatasıı" });
+    res.status(500).json({ error: "Dosya erişim hatası" });
   }
 });
 
