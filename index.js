@@ -25,7 +25,7 @@ function loadMemory() {
     const data = fs.readFileSync(memoryFile, "utf8");
     return JSON.parse(data || "[]");
   } catch (err) {
-    console.error("Hafıza okunamamıstı:", err);
+    console.error("Hafıza okunamamıstır:", err);
     return [];
   }
 }
