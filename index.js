@@ -54,7 +54,7 @@ app.post("/api/memory", (req, res) => {
 
     res.json({
       status: "ok",
-      message: "Yazı hafızaya kaydedildi.",
+      message: "Yazı hafızaya kaydedildı.",
       text,
     });
   } catch (err) {
